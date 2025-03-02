@@ -78,13 +78,13 @@ function App() {
                 />
               </div>
               <div className="absolute inset-0 flex items-center z-20">
-                <div className="container mx-auto px-4">
+                <div className="container mx-auto px-5">
                   <div className="max-w-2xl">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Breaking Barriers Through Sign Language</h1>
                     <p className="text-xl text-white/90 mb-8">
                       Translate Spanish Sign Language to text in Spanish and English in real-time with our cutting-edge technology
                     </p>
-                    <div className="flex flex-col sm:flex-row gap-4">
+                    <div className="flex flex-col sm:flex-row gap-6">
                       <button 
                         onClick={() => setActivePage('translator')} 
                         className="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors text-lg font-medium"
@@ -97,10 +97,14 @@ function App() {
                       >
                         Learn More
                       </button>
+                      <div className="absolute bottom-4 right-4 text-white text-xl sm:text-3xl p-3 rounded-lg">
+                        <p> 🤟 means I love you.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+              
             </section>
 
             {/* Features Section */}
@@ -108,7 +112,7 @@ function App() {
               <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
                   <h2 className="text-3xl font-bold text-gray-900 mb-4">How SeñasVision Works</h2>
-                  <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                  <p className="text-xl text-gray-600 max-w-3xl mx-auto whitespace-nowrap">
                     Our platform uses advanced AI to interpret and translate Spanish Sign Language in real-time
                   </p>
                 </div>
