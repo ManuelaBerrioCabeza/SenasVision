@@ -132,7 +132,7 @@ function Camera() {
             <div id="liveView" className="videoView">
                 <button id="webcamButton" className="mdc-button mdc-button--raised">
                     <span className="mdc-button__ripple"></span>
-                    <span className="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors text-lg font-medium">Enable Web Camera</span>
+                    <span className="px-12 py-6 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition-colors text-2xl font-bold mt-80">Enable Web Camera</span>
                 </button>
                 <div style={{ position: "relative" }}>
                     <video id="webcam" autoPlay playsInline style={{ width: "100%", height: "auto" }}></video>
